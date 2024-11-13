@@ -1,4 +1,4 @@
-# <%= title %> Format
+# GESIS HTML Document Format
 
 ## Installing
 
