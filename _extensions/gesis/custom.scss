@@ -326,5 +326,9 @@ div.callout-important.callout-style-default>.callout-header {
 
 .collapse-button[aria-expanded="true"]::before {
     transform: rotate(90deg);
+}
 
+.collapse-button[aria-expanded="true"] {
+    background-color: $gs--color--gs-berry !important;
+    color: #fff !important;
 }
