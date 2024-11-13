@@ -1,0 +1,81 @@
+---
+title: GESIS HTML Document
+subtitle: Template for Quarto
+format:
+  gesis-html: default
+author:
+  - name: David Schoch
+    orcid: 0000-0003-2952-4812
+    url: https://www.gesis.org/institut/ueber-uns/mitarbeitendenverzeichnis/person/David.Schoch
+    email: david.schoch@gesis.org
+    corresponding: true
+date: last-modified
+---
+
+## Introduction
+
+This template allows to create single html documents in GESIS-ish style.
+
+## More Information
+
+You can learn more about the GESIS styleguide here: <https://www.gesis.org/styleguide/layout/html-seitenaufbau>
+
+
+
+## Some more features
+
+### Tabset
+
+::: {.panel-tabset}
+
+## Page 1
+
+- testing
+- list
+- items
+
+## Page 2
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+:::
+
+### Callouts
+
+::: {.callout-note}
+Callout note
+:::
+
+::: {.callout-warning}
+Callout warning
+:::
+
+::: {.callout-important}
+Callout important
+:::
+
+::: {.callout-tip}
+Callout tip
+:::
+
+::: {.callout-caution}
+Callout caution
+:::
+
+### Cards
+
+:::{.gesis-card-orange}
+A GESIS card
+
+exists in orange,rust,turquoise, and berry. First paragraph is interpreted as the header.
+
+:::
+
+### Collapse
+
+:::{.gesis-collapse}
+
+This is the header
+
+and this the text that appears when pressed
+:::

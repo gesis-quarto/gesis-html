@@ -1,0 +1,22 @@
+title: GESIS HTML Documents
+author: David Schoch
+version: 1.0.0
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    html:
+      filters:
+        - classes.lua
+      mainfont: Source Sans Pro
+      fontsize: 1rem
+      linestretch: 1.6
+      title-block-banner: white
+      title-block-banner-color: '#003c78'
+      toc: true
+      toc-title: " "
+      toc-expand: 2
+      anchor-sections: false
+      smooth-scrolling: true
+      theme: [yeti, custom.scss]
+
+
