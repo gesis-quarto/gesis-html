@@ -1,5 +1,9 @@
 # GESIS HTML Document Format
 
+This is a repository for Quarto html template. And this is not an official product. Please use official templates if they exist.
+
+But this is a demo: <https://gesis-quarto.github.io/gesis-html/>
+
 ## Installing
 
 ```bash
@@ -14,5 +18,3 @@ starting place for your article. This qmd file also includes all supported eleme
 
 Here is the source code for a minimal sample document:
 [template.qmd](template.qmd).
-
-A rendered version can be found [here](https://gesis-quarto.github.io/gesis-html/)
