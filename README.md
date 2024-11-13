@@ -3,7 +3,7 @@
 ## Installing
 
 ```bash
-quarto use template gesis-quart/gesis-html
+quarto use template gesis-quarto/gesis-html
 ```
 
 This will install the extension and create a template.qmd file that you can use as a starting place for your article.
