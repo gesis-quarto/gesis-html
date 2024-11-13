@@ -17,6 +17,6 @@ contributes:
       toc-expand: 2
       anchor-sections: false
       smooth-scrolling: true
-      theme: [yeti, custom.scss]
+      theme: [yeti, gesis-html.scss]
 
 
