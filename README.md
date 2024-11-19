@@ -1,6 +1,7 @@
 # GESIS HTML Document Format
 
-This is a repository for Quarto html template. And this is not an official product. Please use official templates if they exist.
+> [!IMPORTANT]
+>This is a repository for Quarto html template. And this is not an official product. Please use official templates if they exist.
 
 But this is a demo: <https://gesis-quarto.github.io/gesis-html/>
 
